@@ -1,0 +1,62 @@
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node.js
+node_modules/
+
+# Built output
+/build
+/dist
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-workspace
+
+# Mac OS
+.DS_Store
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*.cache
+*.DS_Store?
+*.log.*
+
+# npm cache directory
+/.npm
+
+# React development build cache
+/.react/
+
+# Coverage directory
+/coverage
+
+# Build output of storybook
+/storybook-static
+
+# Cache and build folders for storybook
+/.out
+/.cache
+
+# Optional: Uncomment the lines below if using TypeScript
+# /tsconfig.json
+# /tsconfig.build.json
+# /tsconfig.prod.json
+# /tsconfig.test.json
+# /tsconfig.e2e.json
+# /src/*.d.ts
