@@ -1,4 +1,4 @@
-import { FC, useState, useCallback, useEffect, useMemo } from 'react';
+import { FC, useState, useCallback, useEffect } from 'react';
 import Filters from '../../components/Filters';
 import Styles from './Flights.module.scss';
 import FlightCards from '../../components/FlightCards';
