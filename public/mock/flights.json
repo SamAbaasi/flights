@@ -1,0 +1,184 @@
+{
+    "data": [
+        {
+            "airline": {
+                "code": "VR",
+                "codes": [
+                    "VR"
+                ],
+                "name": "وارش",
+                "name_en": "Varesh",
+                "logo_filename": "https://cdnsnapptrip.com/images/Flight/Uploads/airlines/varesh.png"
+            },
+            "departureDateTime": "2023-12-28T08:00:00",
+            "arrivalTime": "2023-12-28T09:15:00",
+            "capacity": 5,
+            "price": "1550000"
+        },
+        {
+            "airline": {
+            "code": "ZV",
+            "codes": [
+                "ZV"
+            ],
+            "name": "زاگرس",
+            "name_en": "Zagros",
+            "logo_filename": "https://cdnsnapptrip.com/images/Flight/Uploads/airlines/zagros.png"
+        },
+        "departureDateTime": "2023-12-28T08:00:00",
+        "arrivalTime": "2023-12-28T09:15:00",
+        "capacity": 7,
+        "price": "1650000"
+        },
+        {
+            "airline": {
+                "code": "VR",
+                "codes": [
+                    "VR"
+                ],
+                "name": "وارش",
+                "name_en": "Varesh",
+                "logo_filename": "https://cdnsnapptrip.com/images/Flight/Uploads/airlines/varesh.png"
+            },
+            "departureDateTime": "2023-12-28T08:00:00",
+            "arrivalTime": "2023-12-28T09:15:00",
+            "capacity": 9,
+            "price": "1650000"
+        }, 
+        {
+            "airline": {
+                "code": "NV",
+                "codes": [
+                    "NV"
+                ],
+                "name": "کارون (نفت)",
+                "name_en": "Karun (Naft)",
+                "logo_filename": "https://cdnsnapptrip.com/images/Flight/Uploads/airlines/naft.png"
+            },
+            "departureDateTime": "2023-12-28T08:30:00",
+            "arrivalTime": "2023-12-28T09:45:00",
+            "capacity": 6,
+            "price": "1680000"
+        },
+        {
+            "airline": {
+                "code": "IRU",
+                "codes": [
+                    "IRU"
+                ],
+                "name": "چابهار",
+                "name_en": "Chabahar",
+                "logo_filename": "https://cdnsnapptrip.com/images/Flight/Uploads/airlines/chabahar.png"
+            },
+            "departureDateTime": "2023-12-28T08:30:00",
+            "arrivalTime": "2023-12-28T09:45:00",
+            "capacity": 5,
+            "price": "1700000"
+        },
+        {
+            "airline": {
+                "code": "IRU",
+                "codes": [
+                    "IRU"
+                ],
+                "name": "چابهار",
+                "name_en": "Chabahar",
+                "logo_filename": "https://cdnsnapptrip.com/images/Flight/Uploads/airlines/chabahar.png"
+            },
+            "departureDateTime": "2023-12-28T09:15:00",
+            "arrivalTime": "2023-12-28T10:45:00",
+            "capacity": 4,
+            "price": "1700000"
+        },
+        {
+            "airline": {
+                "code": "VR",
+                "codes": [
+                    "VR"
+                ],
+                "name": "وارش",
+                "name_en": "Varesh",
+                "logo_filename": "https://cdnsnapptrip.com/images/Flight/Uploads/airlines/varesh.png"
+            },
+            "departureDateTime": "2023-12-28T09:15:00",
+            "arrivalTime": "2023-12-28T10:45:00",
+            "capacity": 3,
+            "price": "1750000"
+        },
+        {
+            "airline": {
+            "code": "ZV",
+            "codes": [
+                "ZV"
+            ],
+            "name": "زاگرس",
+            "name_en": "Zagros",
+            "logo_filename": "https://cdnsnapptrip.com/images/Flight/Uploads/airlines/zagros.png"
+        },
+        "departureDateTime": "2023-12-28T08:00:00",
+        "arrivalTime": "2023-12-28T09:15:00",
+        "capacity": 7,
+        "price": "1750000"
+        },
+        {
+            "airline": {
+                "code": "NV",
+                "codes": [
+                    "NV"
+                ],
+                "name": "کارون (نفت)",
+                "name_en": "Karun (Naft)",
+                "logo_filename": "https://cdnsnapptrip.com/images/Flight/Uploads/airlines/naft.png"
+            },
+            "departureDateTime": "2023-12-28T14:00:00",
+            "arrivalTime": "2023-12-28T15:15:00",
+            "capacity": 9,
+            "price": "1800000"
+        },
+        {
+            "airline": {
+                "code": "IRU",
+                "codes": [
+                    "IRU"
+                ],
+                "name": "چابهار",
+                "name_en": "Chabahar",
+                "logo_filename": "https://cdnsnapptrip.com/images/Flight/Uploads/airlines/chabahar.png"
+            },
+            "departureDateTime": "2023-12-28T14:00:00",
+            "arrivalTime": "2023-12-28T15:15:00",
+            "capacity": 1,
+            "price": "1800000"
+        },
+        {
+            "airline": {
+                "code": "VR",
+                "codes": [
+                    "VR"
+                ],
+                "name": "وارش",
+                "name_en": "Varesh",
+                "logo_filename": "https://cdnsnapptrip.com/images/Flight/Uploads/airlines/varesh.png"
+            },
+            "departureDateTime": "2023-12-28T21:00:00",
+            "arrivalTime": "2023-12-28T22:15:00",
+            "capacity": 3,
+            "price": "1950000"
+        },
+        {
+            "airline": {
+            "code": "ZV",
+            "codes": [
+                "ZV"
+            ],
+            "name": "زاگرس",
+            "name_en": "Zagros",
+            "logo_filename": "https://cdnsnapptrip.com/images/Flight/Uploads/airlines/zagros.png"
+        },
+        "departureDateTime": "2023-12-28T08:00:00",
+        "arrivalTime": "2023-12-28T09:15:00",
+        "capacity": 2,
+        "price": "1950000"
+        }
+    ]
+}
