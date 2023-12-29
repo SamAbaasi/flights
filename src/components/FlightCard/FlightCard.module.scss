@@ -11,5 +11,26 @@
 }
 .titleSec {
     display: flex;
-
+    align-items: center;
+    justify-content: space-between;
+}
+.timeSec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.arrow {
+    margin: 0px 5px;
+}
+.currency {
+    margin: 0px 5px;
+}
+.logo {
+    width: 30px;
+    height: 30px;
+    margin-left: 3px;
+}
+.flight {
+    font-size: 1.4rem;
+    font-weight: bold;    
 }

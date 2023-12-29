@@ -1,6 +1,7 @@
 import { ChangeEvent, useCallback, useEffect, useState, useRef, forwardRef, useImperativeHandle, Ref } from 'react';
 import Styles from './InputRange.module.scss';
 import classNames from 'classnames';
+import { formatPrice } from '../../../utils';
 
 type Props = {
   min: number;
@@ -54,9 +55,6 @@ const MultiRangeSlider = forwardRef<MultiRangeSliderHandle, Props>((props, ref: 
     handleReset,
   }), [handleReset]);
   
-
-  const formatPrice = (price: number) => price.toLocaleString('en-US');
-
 
   return (
     <div className={Styles.wrapper} ref={ref as unknown as React.RefObject<HTMLDivElement>}>

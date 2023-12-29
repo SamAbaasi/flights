@@ -6,14 +6,17 @@ import { TRANSLATIONS } from './constants';
 import { MockData } from './constants';
 import { FlightsType } from '../../types/flights';
 import { TimeFilters } from './constants';
+import { maxCal, minCal } from '../../utils';
 
 type Props = {};
 
 const Flights: FC<Props> = () => {
   const [data] = useState<FlightsType[]>(MockData);
   const [filteredData, setFilteredData] = useState<FlightsType[]>(data);
-  const minPrice = useMemo(() => minPriceCal(data), [data]);
-  const maxPrice = useMemo(() => maxPriceCal(data), [data]);
+  const maxPrice = maxCal(data, (flight) => parseFloat(flight.price));
+
+  const minPrice = minCal(data, (flight) => parseFloat(flight.price));
+
   const [selectedTime, setSelectedTime] = useState<string>('0');
   const [selectedAirlines, setSelectedAirlines] = useState<string[]>([]);
   const [priceRange, setPriceRange] = useState<{ min: number; max: number }>({
@@ -84,11 +87,3 @@ const Flights: FC<Props> = () => {
 };
 
 export default Flights;
-
-function maxPriceCal(data: FlightsType[]) {
-  return Math.max(...data.map((flight) => parseFloat(flight.price)));
-}
-
-function minPriceCal(data: FlightsType[]) {
-  return Math.min(...data.map((flight) => parseFloat(flight.price)));
-}

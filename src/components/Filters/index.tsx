@@ -2,7 +2,7 @@ import React, { FC, useCallback, useMemo, useRef } from "react";
 import { CheckBox } from "../atomic/CheckBox";
 import FilterCard from "../FilterCard";
 import { TRANSLATIONS, TimeFilters } from "./constants";
-import styles from "./Filters.module.scss";
+import Styles from "./Filters.module.scss";
 import InputRange from "../atomic/InputRange";
 import { SelectBox } from "../atomic/SelectBox";
 import { FlightsType } from "../../types/flights";
@@ -86,7 +86,7 @@ const Filters: FC<FiltersProps> = ({
   }, [setSelectedAirlines]);
 
   return (
-    <div className={styles.filters}>
+    <div className={Styles.filters}>
       <FilterCard
         resetTitle={TRANSLATIONS.resetFilters}
         filterTitle={TRANSLATIONS.filters}
@@ -104,7 +104,7 @@ const Filters: FC<FiltersProps> = ({
         <SelectBox options={TimeFilters} value={selectedTime} onChange={handleTimeChange} />
       </FilterCard>
       <FilterCard label={TRANSLATIONS.byAirline} icon border={false}>
-        <div>
+        <div className={Styles.airlines}>
           {uniqueAirlines.map((airline) => (
             <CheckBox
               key={airline.code}

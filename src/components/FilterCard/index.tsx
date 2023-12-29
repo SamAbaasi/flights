@@ -1,4 +1,4 @@
-import { ReactElement, useState } from 'react';
+import { ReactElement } from 'react';
 import Styles from './FilterCard.module.scss';
 import classNames from 'classnames';
 
@@ -14,7 +14,6 @@ type Props = {
 }
 
 const FilterCard = ({filterTitle, label, icon, reset, resetTitle, handleReset, border = true, children}: Props) => {
-    const [open, setOpen] = useState(true)
 return (
     <div className={classNames(border && Styles.BorderBottom)}>
         <div className={Styles.FilterCard}>
@@ -22,8 +21,6 @@ return (
         ? <h3 className={Styles.FilterCardLabel}>{filterTitle}</h3>
         : <h5 className={Styles.FilterCardLabel}>{label}</h5>
         }
-        {/* add icon */}
-        {!reset && icon && <div onClick={() => setOpen(!open)}>icon</div>}
         {!reset && resetTitle && <small onClick={handleReset} className={Styles.ResetTitle}>{resetTitle}</small>}
         </div>
         {children}
